@@ -18,7 +18,7 @@ Activate the environment
 ```
 myenv\Scripts\activate
 ```
-4. Install dependencies
+3. Install dependencies
 - If you have a `requirements.txt`:
 pip install -r requirements.txt
 
@@ -31,7 +31,7 @@ Run
 
 1. Start the backend (FastAPI)
 ```cmd
-python -m uvicorn main:app --reload --port 8000
+uvicorn main:app --reload --port 8000
 ```
 - API docs: http://localhost:8000/docs
 - Health: http://localhost:8000/health
