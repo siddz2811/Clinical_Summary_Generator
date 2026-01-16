@@ -1,8 +1,8 @@
 # Clinical Summary Generator — Windows
 
 Prerequisites
-- Python 3.8+ installed and available as `python`.
-- Git (optional, for cloning).
+- Python 3.8+ installed.
+- Git (for cloning).
 - Internet access for installing packages and calling the LLM service.
 
 Setup (Windows)
