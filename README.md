@@ -22,9 +22,10 @@ myenv\Scripts\activate
 pip install -r requirements.txt
 
 
-4. Set the LLM API key in an .env file (GROQ_API_KEY)
+4. Set the LLM API key in an .env file
+```
 GROQ_API_KEY=your_groq_api_key_here
-
+```
 Run
 
 1. Start the backend (FastAPI)
