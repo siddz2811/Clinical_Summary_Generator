@@ -10,14 +10,15 @@ Setup (Windows)
 1. Clone the repo
 ```powershell
 git clone https://github.com/siddz2811/Clinical_Summary_Generator.git
-cd Clinical_Summary_Generator
 ```
 
 2. Create and activate a virtual environment
-python -m venv myenv
+```python -m venv myenv```
+Activate the environment
+```
 myenv\Scripts\activate
-
-3. Install dependencies
+```
+4. Install dependencies
 - If you have a `requirements.txt`:
 pip install -r requirements.txt
 
